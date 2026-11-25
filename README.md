@@ -589,11 +589,15 @@ By default each plan is a **one-page brief** (650–700 words), because a plan o
 - **The trimtabs:** the 1–3 small changes with the most leverage, each ranked on Meadows' leverage-point ladder, plus the critical-path decisions to make first.
 - **Honest findings:** impact rated High/Medium/Low with a confidence level. Figures appear only when they come from a named method (e.g. Sustainable Web Design, CO2.js) with the inputs shown.
 - **Design-token changes** where a fix belongs in the design system (motion, themes, typography, effects, sizes, a low-impact mode).
-- **Two figures:** a leverage ladder showing where the trimtabs sit on Meadows' rungs, and a lifecycle strip showing where the impact concentrates. Both are rendered by a bundled script, so they look the same in every plan.
+- **Figures:** a leverage ladder showing where the trimtabs sit on Meadows' rungs, a lifecycle strip showing where the impact concentrates and, when a design creates feedback loops, a loop map of what amplifies cost and what holds it in check. A bundled script renders them, so they look the same in every plan.
 
 Example figures from a plan for a homepage hero with autoplay video:
 
 <img src="docs/images/impact-plan-example-ladder.svg" alt="Leverage ladder: trimtab 1 (poster-first default) and trimtab 3 (no-autoplay rule) at rules and defaults, level 5; trimtab 3 also at information flows, level 6; trimtab 2 (video stops by itself) at balancing loops, level 8" width="560"> <img src="docs/images/impact-plan-example-lifecycle.svg" alt="Lifecycle strip: creation medium, delivery high, use medium, longevity high with low confidence, end of life low" width="560">
+
+And a loop map from a plan for AI-generated product images:
+
+<img src="docs/images/impact-plan-example-loops.svg" alt="Loop map: R1 cost grows with traffic, and B1 visible, capped spend, from trimtab 3, which limits R1" width="560">
 
 ### Using it
 

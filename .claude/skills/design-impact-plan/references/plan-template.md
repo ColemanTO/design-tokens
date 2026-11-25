@@ -12,7 +12,7 @@ Both are written for a collaborator who wasn't in the conversation. Drop any sec
 
 ## One-page brief (default)
 
-**Budget: 650–700 words of text**, not counting figure alt text. That's what fits on one page and gets read; don't go over 700. The analysis behind it is just as thorough as for the full plan: run every lens, then keep only what changes a decision. If you're over budget, cut detail from the findings and assumptions, never the verdict or the trimtabs.
+**Budget: 650–700 words of text**, not counting figure lines. That's what fits on one page and gets read; don't go over 700. The analysis behind it is just as thorough as for the full plan: run every lens, then keep only what changes a decision. If you're over budget, cut detail from the findings and assumptions, never the verdict or the trimtabs.
 
 ```markdown
 # Impact brief: <design name>
@@ -28,6 +28,8 @@ Both are written for a collaborator who wasn't in the conversation. Drop any sec
 3. ...
 
 ![Leverage ladder: <which trimtabs sit on which rungs>](<slug>-ladder.svg)
+
+![Loop map: <R1 ...; B1 ... limits R1>](<slug>-loops.svg)  <!-- only if the plan names real feedback loops -->
 
 ## Decide first
 - **<Decision>:** <recommended choice and why it can't wait, in one line>.
@@ -72,6 +74,8 @@ The few changes with the most leverage, in priority order.
 2. ...
 
 ![Leverage ladder: <which trimtabs sit on which rungs>](<slug>-ladder.svg)
+
+![Loop map: <R1 ...; B1 ... limits R1>](<slug>-loops.svg)  <!-- only if the plan names real feedback loops -->
 
 ## What we're designing
 <The job it does, for whom, at what scale and lifespan. Is it solving the root problem? Note anything already decided vs. still open.>

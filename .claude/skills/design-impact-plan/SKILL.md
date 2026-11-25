@@ -70,7 +70,7 @@ Many digital mitigations are best encoded once in the design system rather than 
 - **Reconsider** — the value is unclear relative to the cost, or a much smaller version would do most of the job. Propose that version.
 - **Don't build** — the root problem is better solved another way, or the harm clearly outweighs the benefit. Propose what to do instead.
 
-**Figures:** when saving the plan as a file, also render its two figures: the **leverage ladder** (trimtabs on Meadows' rungs) and the **lifecycle strip** (impact tier and confidence per stage). Write a small JSON summary from the finished plan and run `scripts/render_visuals.py`; `references/visuals.md` has the format and where to embed them. The script draws them the same way every time, so don't hand-draw SVG.
+**Figures:** when saving the plan as a file, also render its figures: the **leverage ladder** (trimtabs on Meadows' rungs), the **lifecycle strip** (impact tier and confidence per stage) and, when the behavior lens found real feedback loops, the **loop map** (reinforcing loops and the balancing loops that check them). Write a small JSON summary from the finished plan and run `scripts/render_visuals.py`; `references/visuals.md` has the format and where to embed them. The script draws them the same way every time, so don't hand-draw SVG.
 
 **Where to put it:** If the user is working in a repository or folder, save the plan as a markdown file (default `impact-plans/<short-slug>.md`, or wherever they prefer) so it can be versioned and shared, and give a short summary in chat. Otherwise present it in the conversation. If they plan to share it with collaborators, offer to publish it as a page or document.
 
