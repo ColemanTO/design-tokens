@@ -33,6 +33,31 @@ Fuller saw design as a way to make the world work for everyone with the resource
 
 How it shows up in a plan: the system map, the critical-path section, the trimtabs, the "less is more" bias in recommendations, the willingness to say "don't build", and the use of design tokens as leverage points.
 
+## Donella Meadows — *Thinking in Systems* (2008) and "Leverage Points: Places to Intervene in a System" (1999)
+
+Meadows was a systems scientist and lead author of *The Limits to Growth*. Her leverage-points essay ranks the places to intervene in a system from least to most effective. It turns Fuller's trimtab from a metaphor into a ladder you can climb. Her ordering, from weakest (12) to strongest (1), with what each means in design:
+
+| # | Leverage point | In a design |
+|---|----------------|-------------|
+| 12 | Constants, parameters, numbers | Page weight, bitrate, screen brightness, a token's value. Easy to change and usually the weakest. |
+| 11 | Sizes of buffers relative to flows | Caches, offline storage, spare-parts stock, battery capacity. |
+| 10 | Structure of material stocks and flows | Architecture and physical infrastructure: device fleets, a chip in every unit, where data lives. Very hard to change once built, so it belongs on the critical path. |
+| 9 | Lengths of delays | How long before anyone sees the consequence: e-waste years later, a cloud bill next quarter, a metric nobody checks. |
+| 8 | Strength of balancing feedback loops | Limits that correct drift: performance budgets enforced in CI, autoplay that stops, rate limits, update-support commitments. |
+| 7 | Gain of reinforcing feedback loops | Loops that amplify: engagement mechanics, costs that grow with every visit, upgrade cycles. Slowing a runaway loop beats tuning its parameters. |
+| 6 | Structure of information flows | Who can see the cost: showing users their data use, putting page weight on the team dashboard, disclosing AI imagery, labeling repairability. |
+| 5 | Rules of the system | Defaults, design-system rules, token *modes*, policies ("no autoplay"), procurement criteria. |
+| 4 | Power to add, change or self-organize structure | Letting users, repairers and communities adapt the system: open protocols, local-first, repair docs, design-system governance. |
+| 3 | Goals of the system | What the product optimizes: engagement or outcome? Growth or sufficiency? (Norman's "measure what matters".) |
+| 2 | The mindset or paradigm the system comes from | "New is better", "more features is better", disposability as normal. |
+| 1 | The power to transcend paradigms | Holding any model loosely; staying open to "we don't need this at all". |
+
+Two of her observations matter in practice:
+- **People push leverage points in the wrong direction.** Teams often find the right lever and pull it the wrong way: more engagement to fund sustainability work, bigger caches that keep stale heavy assets around. Check the direction, not just the point.
+- **Lower numbers are stronger but harder.** Most recommendations land at 12–8, and that's fine. The point is to notice when a 5, 3 or 2 is available, and to say so, even if the team chooses the easier lever.
+
+How it shows up in a plan: each trimtab is labeled with its leverage level; the behavior lens looks for reinforcing and balancing loops and for delays; information-flow fixes (making cost visible) are treated as real interventions, not afterthoughts.
+
 ## Where they agree
 
-Both reject the idea that the designer's responsibility ends at the user's screen or the product's box. Both favor anticipation over cleanup, whole systems over parts, and doing more good with less stuff. Norman adds the human and community side — participation, meaning, behavior; Fuller adds the resource accounting and the engineering instinct for leverage and sequence.
+All three reject the idea that the designer's responsibility ends at the user's screen or the product's box. All favor anticipation over cleanup, whole systems over parts, and doing more good with less stuff. Norman adds the human and community side — participation, meaning, behavior; Fuller adds the resource accounting and the engineering instinct for leverage and sequence; Meadows adds the systems vocabulary — stocks, flows, loops, delays — and a ranking of where change actually takes hold.

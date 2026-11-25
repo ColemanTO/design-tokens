@@ -1,6 +1,8 @@
 # Design tokens as trimtabs
 
-A design token decides something once for every screen that uses it. That makes tokens one of the best leverage points in digital design: change a default in the system, and every product built on it inherits the improvement. Recommend token changes when a finding is systemic (appears across screens or products), not for one-off issues.
+A design token decides something once for every screen that uses it. That makes tokens one of the best leverage points in digital design: change a default in the system, and every product built on it inherits the improvement.
+
+In Meadows' terms, changing a token's *value* is a parameter change (level 12, the weakest), even if it reaches every screen. A token *mode* that's on by default, or a design-system rule about which tokens may be used, is a rule change (level 5), which is much stronger. Prefer recommendations that change the rules and defaults, not just the numbers. Recommend token changes when a finding is systemic (appears across screens or products), not for one-off issues.
 
 When working in a token repository, read the actual token files and use real token names and structure. This repository's Figma plugin exports tokens in categories like color, typography (fonts), effects, motion, grids, sizes, spacing, breakpoints, borders, radii, and opacity, and it supports **Figma variable modes**, which makes a mode-based approach natural.
 

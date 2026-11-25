@@ -1,6 +1,6 @@
 ---
 name: design-impact-plan
-description: Plan the environmental and societal impact of a new design before it is built — digital products, features, screens, design systems, and "phygital" work (kiosks, connected/IoT products, smart packaging, QR/AR, retail and event installations). Produces a shareable impact plan with a clear verdict (build / build differently / reconsider / don't build), ranked leverage points, lifecycle and behavioral findings, and concrete design and design-token changes. Grounded in Don Norman's Design for a Better World and Buckminster Fuller's Critical Path. Use this whenever someone is starting or reviewing a new design, feature, product, campaign, or physical-digital experience and mentions sustainability, carbon, energy, e-waste, footprint, eco-design, green UX, longevity, repairability, planned obsolescence, "doing more with less", Norman, or Fuller — and also when they ask "should we build this?" or want a pre-mortem on unintended consequences, even if they never say "environment".
+description: Plan the environmental and societal impact of a new design before it is built — digital products, features, screens, design systems, and "phygital" work (kiosks, connected/IoT products, smart packaging, QR/AR, retail and event installations). Produces a shareable impact plan with a clear verdict (build / build differently / reconsider / don't build), ranked leverage points, lifecycle and behavioral findings, and concrete design and design-token changes. Grounded in Don Norman, Buckminster Fuller and Donella Meadows. Use this whenever someone is starting or reviewing a new design, feature, product, campaign, or physical-digital experience and mentions sustainability, carbon, energy, e-waste, footprint, eco-design, green UX, longevity, repairability, planned obsolescence, "doing more with less", leverage points, Norman, Fuller, or Meadows — and also when they ask "should we build this?" or want a pre-mortem on unintended consequences, even if they never say "environment".
 ---
 
 # Design Impact Plan
@@ -9,10 +9,11 @@ Help a designer think through what a new design will cost the world — energy, 
 
 ## The stance (why this skill exists)
 
-Two thinkers shape how this skill works. Read `references/frameworks.md` when you want the fuller version or need to explain a lens to the user.
+Three thinkers shape how this skill works. Read `references/frameworks.md` when you want the fuller version or need to explain a lens to the user.
 
 - **Don Norman, *Design for a Better World*:** we optimize what we measure, and we measure the wrong things. Humanity-centered design looks past the individual user to the whole ecosystem, the long term, and the communities affected; it favors solving root problems, small modular steps that can be tested and corrected, and designing *with* people rather than for them. Repair, reuse, and circularity beat disposability.
 - **Buckminster Fuller, *Critical Path*:** be a comprehensive, *anticipatory* designer — think about the whole system before you act on a part. There is no "away" on Spaceship Earth. Ephemeralization — doing ever more with ever less — is the direction of good design. Look for the **trimtab**: the small, well-placed change that turns the whole ship. And sequence the work: some decisions gate everything after them.
+- **Donella Meadows, *Thinking in Systems* and "Leverage Points":** systems are stocks, flows, feedback loops and delays, and the places to intervene are not equal. Changing a number (a parameter) is the weakest lever; changing information flows, rules, goals or mindset is far stronger. Use her ladder to rank trimtabs, and watch for levers pulled in the wrong direction.
 
 In practice this means:
 
@@ -45,13 +46,15 @@ Sketch the whole system the design touches (Fuller's comprehensive view): the pe
 Work through each lens, but only report findings that are actually relevant to this design — skip empty sections rather than padding them.
 
 - **Lifecycle** — creation → delivery → use → longevity → end of life. For digital work read `references/digital.md`; for anything with a physical component also read `references/phygital.md`.
-- **Behavior** — what the design encourages people to do. Does it drive overconsumption (infinite scroll, autoplay, streaks, notifications, frequent upgrades, disposable add-ons)? Is the lower-impact choice the default and the easy path? Norman's signifiers and defaults matter here: what the design *suggests* is what people will do at scale.
+- **Behavior** — what the design encourages people to do. Does it drive overconsumption (infinite scroll, autoplay, streaks, notifications, frequent upgrades, disposable add-ons)? Is the lower-impact choice the default and the easy path? Norman's signifiers and defaults matter here: what the design *suggests* is what people will do at scale. Look at it as Meadows would: which reinforcing loops amplify use or cost, which balancing loops (budgets, limits, stops) hold them in check, and how long the delay is before anyone sees the consequence.
 - **System & community** — who bears costs that don't show up on the project's books (externalities)? Does it lock people in, make things obsolete, shift labor or waste elsewhere? Could the community it affects help shape it?
 - **Measurement** — what would tell you, after launch, whether the design is doing better or worse than expected? Prefer a few honest metrics the team can actually collect over an impressive dashboard nobody maintains.
 
 ### 4. Find the trimtabs
 
 From everything above, choose the **top 1–3 leverage points**: changes that are small relative to their effect, ideally ones that make good behavior the default. Rank by (impact reduced) × (still changeable now) ÷ (effort). This is the heart of the plan; be specific.
+
+Label each trimtab with its place on Meadows' ladder (see `references/frameworks.md`), e.g. "rules / defaults (5)" or "parameter (12)". If every trimtab is a parameter tweak, look again for a stronger lever: a default or rule, an information flow that makes the cost visible, a limit on a runaway loop, or the goal itself. Name it even if it's harder, and let the team choose. Check that each lever is pulled in the right direction.
 
 ### 5. Translate to design tokens where it fits
 

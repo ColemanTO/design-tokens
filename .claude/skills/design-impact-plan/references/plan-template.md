@@ -12,7 +12,7 @@ Fill this in for the specific design. Drop any section with nothing real to say;
 
 ## The trimtabs
 The few changes with the most leverage, in priority order.
-1. **<Change>** — <what it reduces and why it's high leverage>. <Effort: low/med/high.>
+1. **<Change>** — <what it reduces and why it's high leverage>. <Leverage: Meadows level, e.g. "rules / defaults (5)">. <Effort: low/med/high.>
 2. ...
 
 ## What we're designing
@@ -44,7 +44,7 @@ Decisions that gate everything downstream and are hard to reverse — make these
 - <Question for the team>
 
 ---
-*Lenses: Norman's humanity-centered design (Design for a Better World); Fuller's comprehensive anticipatory design science (Critical Path).*
+*Lenses: Norman's humanity-centered design (Design for a Better World); Fuller's comprehensive anticipatory design science (Critical Path); Meadows' leverage points (Thinking in Systems).*
 
 ## Changelog
 - <date> — created
