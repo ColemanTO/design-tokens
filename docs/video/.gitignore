@@ -1,0 +1,9 @@
+# Build outputs and downloaded models (regenerate with ./build.sh)
+venv/
+models/
+*.wav
+*.mp3
+*.mp4
+*.jpg
+timings.json
+scenes.built.html
