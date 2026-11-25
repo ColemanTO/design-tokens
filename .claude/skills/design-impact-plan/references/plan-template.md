@@ -14,6 +14,8 @@ Both are written for a collaborator who wasn't in the conversation. Drop any sec
 
 **Budget: 650–700 words of text**, not counting figure lines. That's what fits on one page and gets read; don't go over 700. The analysis behind it is just as thorough as for the full plan: run every lens, then keep only what changes a decision. If you're over budget, cut detail from the findings and assumptions, never the verdict or the trimtabs.
 
+**A Build verdict gets a shorter brief: 300–450 words.** When the design is fine as it is, the most useful thing the brief can do is say so quickly and get out of the way. Padding a clean bill of health to 700 words makes small suggestions look like big problems. Keep the verdict, at most three optional trimtabs (one or two lines each, clearly marked optional), the figures, and one or two bullets each for "Decide first", "Watch for" and "Assumptions". Drop "How we'll know" if there's nothing worth measuring.
+
 ```markdown
 # Impact brief: <design name>
 
