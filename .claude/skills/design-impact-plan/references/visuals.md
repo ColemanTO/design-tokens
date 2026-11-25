@@ -42,12 +42,12 @@ Rules for filling it in:
 
 ## Placing them in the plan
 
-Embed the ladder right after **The trimtabs** and the strip right before **Findings**, with descriptive alt text:
+Embed the ladder right after **The trimtabs**, and the strip at the top of **Where the impact sits** (brief) or **Findings** (full plan), with descriptive alt text:
 
 ```markdown
 ![Leverage ladder: trimtabs 1 and 3 at rules and defaults (5), 3 also at information flows (6), 2 at balancing loops (8)](homepage-hero-ladder.svg)
 ```
 
-The figures supplement the text; they don't replace it. The trimtab list and the findings table stay in the plan, so screen-reader users and anyone reading plain text get the same information.
+The figures supplement the text; they don't replace it. The trimtab list and the findings stay in the plan, so screen-reader users and anyone reading plain text get the same information.
 
 If the plan is only being shown in chat (no files saved), skip the figures, or offer to save the plan with them.

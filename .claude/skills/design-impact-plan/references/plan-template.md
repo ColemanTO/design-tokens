@@ -1,6 +1,62 @@
-# Impact plan template
+# Plan templates
 
-Fill this in for the specific design. Drop any section with nothing real to say; never pad. Aim for one to two pages. Write for a collaborator who wasn't in the conversation.
+There are two formats. **The one-page brief is the default.** Write the full plan only when someone asks for it (see "When to write the full plan" below).
+
+Both are written for a collaborator who wasn't in the conversation. Drop any section with nothing real to say; never pad.
+
+## Contents
+- One-page brief (default)
+- Full plan
+- When to write the full plan
+- Notes on the fields
+
+## One-page brief (default)
+
+**Budget: about 600 words of text**, not counting figure alt text. That's what fits on one page and gets read. The analysis behind it is just as thorough as for the full plan: run every lens, then keep only what changes a decision. If you're over budget, cut detail from the findings and assumptions, never the verdict or the trimtabs.
+
+```markdown
+# Impact brief: <design name>
+
+<date> · <author / team> · Status: draft · *One-page brief; a full plan is available on request.*
+
+## Verdict: <Build | Build differently | Reconsider | Don't build>
+<One or two sentences: why, in plain language. For Reconsider / Don't build, name the smaller alternative.>
+
+## The trimtabs
+1. **<Change>.** <One or two sentences: what it reduces and why it's high leverage.> *Leverage: <Meadows level, e.g. rules / defaults (5)>. Effort: <low/med/high>.*
+2. ...
+3. ...
+
+![Leverage ladder: <which trimtabs sit on which rungs>](<slug>-ladder.svg)
+
+## Decide first
+- **<Decision>:** <recommended choice and why it can't wait, in one line>.
+- (at most three)
+
+## Where the impact sits
+![Lifecycle strip: <stage> <tier>, ... (<stage> low confidence)](<slug>-lifecycle.svg)
+
+- **<Finding>.** <One line.> *(<Impact> impact, <confidence> confidence)*
+- (at most four: the ones that drive the verdict, plus any low-confidence High that needs checking)
+
+## Watch for
+- <People or systems that bear the cost, a trade-off the team must decide, or an accessibility constraint. One line each, at most three.>
+
+## How we'll know
+- <Measure the team can actually collect, one line each, at most three.>
+
+## Assumptions
+- <Assumption or open question that could change the verdict. At most four.>
+
+---
+*Lenses: Norman (Design for a Better World), Fuller (Critical Path), Meadows (Thinking in Systems).*
+```
+
+Design-token changes go into a trimtab when they are one; otherwise, mention the most important one in a single line under "Decide first" or "Watch for".
+
+## Full plan
+
+The complete version, for when the brief isn't enough. Aim for two to four pages.
 
 ```markdown
 # Impact plan: <design name>
@@ -53,6 +109,12 @@ Decisions that gate everything downstream and are hard to reverse — make these
 ## Changelog
 - <date> — created
 ```
+
+## When to write the full plan
+
+Write the full plan instead of the brief when the user asks for it ("full plan", "detailed", "everything"), or when the plan is going to a formal review, a client deliverable, or a compliance or procurement process that needs the reasoning on record. When the user asks to expand a brief, replace the brief in the same file with the full plan; don't keep two versions.
+
+After a brief, offer the full plan in one line rather than writing it unasked.
 
 ## Notes on the fields
 - **Impact** is the size of the effect relative to the rest of this design, not an absolute figure.
