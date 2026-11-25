@@ -36,6 +36,11 @@ ul.b{list-style:none;display:grid;gap:22px}
 ul.b li{font-size:32px;line-height:1.3;padding-left:40px;position:relative}
 ul.b li:before{content:"";position:absolute;left:0;top:14px;width:16px;height:16px;border-radius:50%;background:var(--green)}
 .clay ul.b li:before{background:var(--clay)} .clay .who{color:var(--clay)}
+.ink ul.b li:before{background:var(--ink)} .ink .who{color:var(--ink)}
+.cols3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px}
+.cols3 .card{padding:42px 40px}
+.cols3 .book{font-size:40px}
+.cols3 ul.b li{font-size:29px}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
 .step{display:flex;gap:28px;align-items:flex-start;padding:40px 40px;min-height:200px}
 .num{flex:none;width:72px;height:72px;border-radius:50%;background:var(--green);color:#fff;font:600 34px/72px Inter;text-align:center}
@@ -117,26 +122,34 @@ ul.b li:before{content:"";position:absolute;left:0;top:14px;width:16px;height:16
 </section>
 
 <!-- 2 lenses -->
-<section class="scene" data-id="lenses" data-label="Two lenses">
-  <h2 class="serif r" data-at="0">Built on two thinkers</h2>
-  <div class="cols">
-    <div class="card r" data-at=".04">
+<section class="scene" data-id="lenses" data-label="Three lenses">
+  <h2 class="serif r" data-at="0" style="margin-bottom:44px">Built on three thinkers</h2>
+  <div class="cols3">
+    <div class="card r" data-at=".03">
       <div class="who">Don Norman</div>
       <div class="book serif">Design for a Better World</div>
       <ul class="b">
-        <li class="r" data-at=".2">Solve the root problem</li>
-        <li class="r" data-at=".26">Consider the whole ecosystem</li>
-        <li class="r" data-at=".32">Think long term</li>
-        <li class="r" data-at=".38">Design with communities</li>
+        <li class="r" data-at=".13">Solve the root problem</li>
+        <li class="r" data-at=".17">Consider the whole ecosystem</li>
+        <li class="r" data-at=".21">Think long term</li>
+        <li class="r" data-at=".25">Design with communities</li>
       </ul>
     </div>
-    <div class="card clay r" data-at=".46">
+    <div class="card clay r" data-at=".32">
       <div class="who">Buckminster Fuller</div>
       <div class="book serif">Critical Path</div>
       <ul class="b">
-        <li class="r" data-at=".6">Anticipate instead of react</li>
-        <li class="r" data-at=".69">Do more with less</li>
-        <li class="r" data-at=".78">Find the trimtab: the small change that turns the whole ship</li>
+        <li class="r" data-at=".42">Anticipate instead of react</li>
+        <li class="r" data-at=".48">Do more with less</li>
+        <li class="r" data-at=".54">Find the trimtab: the small change that turns the whole ship</li>
+      </ul>
+    </div>
+    <div class="card ink r" data-at=".7">
+      <div class="who">Donella Meadows</div>
+      <div class="book serif">Thinking in Systems</div>
+      <ul class="b">
+        <li class="r" data-at=".78">A ladder of leverage points</li>
+        <li class="r" data-at=".86">Changing a rule beats tweaking a number</li>
       </ul>
     </div>
   </div>
@@ -149,7 +162,7 @@ ul.b li:before{content:"";position:absolute;left:0;top:14px;width:16px;height:16
     <div class="card step r" data-at=".2"><span class="num">1</span><div><h3>Understand</h3><p>The job, scale, lifespan, and who's affected</p></div></div>
     <div class="card step r" data-at=".3"><span class="num">2</span><div><h3>Map the system</h3><p>And the critical path of hard-to-reverse decisions</p></div></div>
     <div class="card step r" data-at=".42"><span class="num">3</span><div><h3>Run the lenses</h3><p>Lifecycle, behavior, community, measurement</p></div></div>
-    <div class="card step r" data-at=".58"><span class="num">4</span><div><h3>Find the trimtabs</h3><p>The 1–3 highest-leverage changes</p></div></div>
+    <div class="card step r" data-at=".58"><span class="num">4</span><div><h3>Find the trimtabs</h3><p>The 1–3 highest-leverage changes, ranked on Meadows' ladder</p></div></div>
     <div class="card step r" data-at=".68"><span class="num">5</span><div><h3>Encode in tokens</h3><p>Systemic fixes go into the design system</p></div></div>
     <div class="card step r" data-at=".8"><span class="num">6</span><div><h3>Write the plan</h3><p>Short, shareable, versioned with the design</p></div></div>
   </div>
