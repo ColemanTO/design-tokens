@@ -15,6 +15,8 @@ The few changes with the most leverage, in priority order.
 1. **<Change>** — <what it reduces and why it's high leverage>. <Leverage: Meadows level, e.g. "rules / defaults (5)">. <Effort: low/med/high.>
 2. ...
 
+![Leverage ladder: <which trimtabs sit on which rungs>](<slug>-ladder.svg)
+
 ## What we're designing
 <The job it does, for whom, at what scale and lifespan. Is it solving the root problem? Note anything already decided vs. still open.>
 
@@ -23,6 +25,8 @@ Decisions that gate everything downstream and are hard to reverse — make these
 - **<Decision>** — <options, recommended choice, why it matters now>.
 
 ## Findings
+![Lifecycle strip: <stage> <tier>, ... (<stage> low confidence)](<slug>-lifecycle.svg)
+
 | Area | Finding | Impact | Confidence | Recommendation |
 |------|---------|--------|------------|----------------|
 | <Lifecycle stage / Behavior / System> | <specific to this design> | High/Med/Low | High/Med/Low | <specific change> |
