@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: autoplay-hero-video
+expected_outcome: |
+  A plan specific to the hero video/parallax that leads with a verdict and leverage points, treats video weight and motion as the main issues, keeps prefers-reduced-motion/accessibility intact, avoids invented absolute carbon figures, and suggests token-level changes (e.g. motion tokens).

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ai-per-visit-images
+expected_outcome: |
+  A clear verdict of Reconsider or Don't build (or Build differently with major changes), proposing a much smaller alternative such as caching, segment-level variants, or opt-in generation, explaining compute/energy scaling with traffic honestly without fabricated precise numbers.

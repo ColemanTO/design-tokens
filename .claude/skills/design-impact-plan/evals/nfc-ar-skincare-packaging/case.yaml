@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: nfc-ar-skincare-packaging
+expected_outcome: |
+  A phygital plan that questions whether a chip in every jar is necessary (e.g. printed QR / shared alternatives), addresses e-waste and recyclability of jars with embedded electronics, the dependency on the app/service staying alive, and gives a verdict of build differently or reconsider with a smaller alternative.
