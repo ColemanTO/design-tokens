@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="696" viewBox="0 0 760 696" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Inter, Roboto, sans-serif">
+<title id="t">Trimtabs on Meadows&#x27; leverage ladder</title><desc id="d">Twelve leverage points, strongest at the top. Trimtabs: #1 Poster-first default; video only when cheap and welcome (level 5), #2 Video stops by itself, with a pause control (level 8), #3 No-autoplay rule with a token mode and CI weight budget (level 5/6).</desc>
+<style>
+  .surface{fill:#ffffff} .ink{fill:#191919} .ink2{fill:#666666} .rule{stroke:#e7e7e7}
+  .axis{stroke:#c2c2c2} .hit{fill:#eaf2fd} .mark{fill:#2370cd} .marktext{fill:#ffffff}
+  .r-low{fill:#84b9f3} .r-medium{fill:#257de0} .r-high{fill:#0f4a96} .r-na{fill:#f1f1f1}
+  .t-low{fill:#0b0b0b} .t-medium{fill:#ffffff} .t-high{fill:#ffffff} .t-na{fill:#666666}
+  .lowconf{fill:none;stroke-width:2;stroke-dasharray:6 5} .lc-low{stroke:#0b0b0b} .lc-medium,.lc-high{stroke:#ffffff} .lc-key{stroke:#666666}
+  @media (prefers-color-scheme: dark){
+    .surface{fill:#191919} .ink{fill:#efefef} .ink2{fill:#9c9c9c} .rule{stroke:#303030}
+    .axis{stroke:#474747} .hit{fill:#1c2a3d} .mark{fill:#519ced} .marktext{fill:#0b0b0b}
+    .r-low{fill:#1757ac} .r-medium{fill:#338ced} .r-high{fill:#9dc8f7} .r-na{fill:#262626}
+    .t-low{fill:#ffffff} .t-medium{fill:#0b0b0b} .t-high{fill:#0b0b0b} .t-na{fill:#9c9c9c}
+    .lc-low{stroke:#ffffff} .lc-medium,.lc-high{stroke:#0b0b0b} .lc-key{stroke:#9c9c9c}
+  }
+</style>
+<rect class="surface" width="760" height="696" rx="12"/>
+<text class="ink" x="24" y="34" font-size="20" font-weight="600">Where the trimtabs sit on Meadows’ ladder</text>
+<text class="ink2" x="24" y="56" font-size="13">Leverage points, strongest at the top. Numbered markers are this plan’s trimtabs.</text>
+<line class="axis" x1="34" y1="528" x2="34" y2="94" stroke-width="2"/>
+<path class="ink2" d="M28 98 L34 86 L40 98 Z"/>
+<text class="ink2" font-size="11" transform="translate(22 176) rotate(-90)" text-anchor="middle">STRONGER</text>
+<text class="ink2" font-size="11" transform="translate(22 488) rotate(-90)" text-anchor="middle">WEAKER</text>
+<line class="rule" x1="64" y1="116" x2="736" y2="116" stroke-width="1"/>
+<text class="ink2" x="64" y="102.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums"> 1</tspan>  Power to transcend paradigms</text>
+<line class="rule" x1="64" y1="154" x2="736" y2="154" stroke-width="1"/>
+<text class="ink2" x="64" y="140.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums"> 2</tspan>  Mindset or paradigm</text>
+<line class="rule" x1="64" y1="192" x2="736" y2="192" stroke-width="1"/>
+<text class="ink2" x="64" y="178.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums"> 3</tspan>  Goals of the system</text>
+<line class="rule" x1="64" y1="230" x2="736" y2="230" stroke-width="1"/>
+<text class="ink2" x="64" y="216.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums"> 4</tspan>  Self-organization</text>
+<rect class="hit" x="56" y="233" width="680" height="32" rx="8"/>
+<line class="rule" x1="64" y1="268" x2="736" y2="268" stroke-width="1"/>
+<text class="ink" x="64" y="254.0" font-size="14" font-weight="600"><tspan font-variant-numeric="tabular-nums"> 5</tspan>  Rules and defaults</text>
+<g><title>Trimtab 1: Poster-first default; video only when cheap and welcome (level 5)</title><circle class="mark" cx="300" cy="249.0" r="12"/><text class="marktext" x="300" y="254.0" font-size="13" font-weight="700" text-anchor="middle">1</text></g>
+<g><title>Trimtab 3: No-autoplay rule with a token mode and CI weight budget (level 5)</title><circle class="mark" cx="330" cy="249.0" r="12"/><text class="marktext" x="330" y="254.0" font-size="13" font-weight="700" text-anchor="middle">3</text></g>
+<rect class="hit" x="56" y="271" width="680" height="32" rx="8"/>
+<line class="rule" x1="64" y1="306" x2="736" y2="306" stroke-width="1"/>
+<text class="ink" x="64" y="292.0" font-size="14" font-weight="600"><tspan font-variant-numeric="tabular-nums"> 6</tspan>  Information flows</text>
+<g><title>Trimtab 3: No-autoplay rule with a token mode and CI weight budget (level 6)</title><circle class="mark" cx="300" cy="287.0" r="12"/><text class="marktext" x="300" y="292.0" font-size="13" font-weight="700" text-anchor="middle">3</text></g>
+<line class="rule" x1="64" y1="344" x2="736" y2="344" stroke-width="1"/>
+<text class="ink2" x="64" y="330.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums"> 7</tspan>  Reinforcing loops</text>
+<rect class="hit" x="56" y="347" width="680" height="32" rx="8"/>
+<line class="rule" x1="64" y1="382" x2="736" y2="382" stroke-width="1"/>
+<text class="ink" x="64" y="368.0" font-size="14" font-weight="600"><tspan font-variant-numeric="tabular-nums"> 8</tspan>  Balancing loops</text>
+<g><title>Trimtab 2: Video stops by itself, with a pause control (level 8)</title><circle class="mark" cx="300" cy="363.0" r="12"/><text class="marktext" x="300" y="368.0" font-size="13" font-weight="700" text-anchor="middle">2</text></g>
+<line class="rule" x1="64" y1="420" x2="736" y2="420" stroke-width="1"/>
+<text class="ink2" x="64" y="406.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums"> 9</tspan>  Delays</text>
+<line class="rule" x1="64" y1="458" x2="736" y2="458" stroke-width="1"/>
+<text class="ink2" x="64" y="444.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums">10</tspan>  Material stocks and flows</text>
+<line class="rule" x1="64" y1="496" x2="736" y2="496" stroke-width="1"/>
+<text class="ink2" x="64" y="482.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums">11</tspan>  Buffers</text>
+<line class="rule" x1="64" y1="534" x2="736" y2="534" stroke-width="1"/>
+<text class="ink2" x="64" y="520.0" font-size="14" font-weight="400"><tspan font-variant-numeric="tabular-nums">12</tspan>  Parameters and numbers</text>
+<circle class="mark" cx="68" cy="559" r="10"/><text class="marktext" x="68" y="564" font-size="12" font-weight="700" text-anchor="middle">1</text>
+<text class="ink" x="88" y="564" font-size="14">Poster-first default; video only when cheap and welcome</text>
+<text class="ink2" x="88" y="582" font-size="12">Level 5 Rules and defaults</text>
+<circle class="mark" cx="68" cy="605" r="10"/><text class="marktext" x="68" y="610" font-size="12" font-weight="700" text-anchor="middle">2</text>
+<text class="ink" x="88" y="610" font-size="14">Video stops by itself, with a pause control</text>
+<text class="ink2" x="88" y="628" font-size="12">Level 8 Balancing loops</text>
+<circle class="mark" cx="68" cy="651" r="10"/><text class="marktext" x="68" y="656" font-size="12" font-weight="700" text-anchor="middle">3</text>
+<text class="ink" x="88" y="656" font-size="14">No-autoplay rule with a token mode and CI weight budget</text>
+<text class="ink2" x="88" y="674" font-size="12">Level 5 Rules and defaults + 6 Information flows</text></svg>

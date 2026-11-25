@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="262" viewBox="0 0 760 262" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Inter, Roboto, sans-serif">
+<title id="t">Impact by lifecycle stage</title><desc id="d">Impact rating per stage: Creation Medium (medium confidence); Delivery High (high confidence); Use Medium (medium confidence); Longevity High (low confidence); End of life Low (medium confidence).</desc>
+<style>
+  .surface{fill:#ffffff} .ink{fill:#191919} .ink2{fill:#666666} .rule{stroke:#e7e7e7}
+  .axis{stroke:#c2c2c2} .hit{fill:#eaf2fd} .mark{fill:#2370cd} .marktext{fill:#ffffff}
+  .r-low{fill:#84b9f3} .r-medium{fill:#257de0} .r-high{fill:#0f4a96} .r-na{fill:#f1f1f1}
+  .t-low{fill:#0b0b0b} .t-medium{fill:#ffffff} .t-high{fill:#ffffff} .t-na{fill:#666666}
+  .lowconf{fill:none;stroke-width:2;stroke-dasharray:6 5} .lc-low{stroke:#0b0b0b} .lc-medium,.lc-high{stroke:#ffffff} .lc-key{stroke:#666666}
+  @media (prefers-color-scheme: dark){
+    .surface{fill:#191919} .ink{fill:#efefef} .ink2{fill:#9c9c9c} .rule{stroke:#303030}
+    .axis{stroke:#474747} .hit{fill:#1c2a3d} .mark{fill:#519ced} .marktext{fill:#0b0b0b}
+    .r-low{fill:#1757ac} .r-medium{fill:#338ced} .r-high{fill:#9dc8f7} .r-na{fill:#262626}
+    .t-low{fill:#ffffff} .t-medium{fill:#0b0b0b} .t-high{fill:#0b0b0b} .t-na{fill:#9c9c9c}
+    .lc-low{stroke:#ffffff} .lc-medium,.lc-high{stroke:#0b0b0b} .lc-key{stroke:#9c9c9c}
+  }
+</style>
+<rect class="surface" width="760" height="262" rx="12"/>
+<text class="ink" x="24" y="34" font-size="20" font-weight="600">Where the impact sits</text>
+<text class="ink2" x="24" y="56" font-size="13">Impact rating per lifecycle stage, relative to the rest of this design. Not a measurement.</text>
+<g><title>Creation: impact Medium, confidence Medium</title>
+<rect class="r-medium" x="24.0" y="74" width="136.0" height="132" rx="10"/>
+<text class="t-medium" x="40.0" y="104" font-size="12" font-weight="600" letter-spacing=".06em">CREATION</text>
+<text class="t-medium" x="40.0" y="146" font-size="26" font-weight="700">Medium</text>
+<text class="t-medium" x="40.0" y="178" font-size="12">medium confidence</text>
+</g>
+<g><title>Delivery: impact High, confidence High</title>
+<rect class="r-high" x="168.0" y="74" width="136.0" height="132" rx="10"/>
+<text class="t-high" x="184.0" y="104" font-size="12" font-weight="600" letter-spacing=".06em">DELIVERY</text>
+<text class="t-high" x="184.0" y="146" font-size="26" font-weight="700">High</text>
+<text class="t-high" x="184.0" y="178" font-size="12">high confidence</text>
+</g>
+<g><title>Use: impact Medium, confidence Medium</title>
+<rect class="r-medium" x="312.0" y="74" width="136.0" height="132" rx="10"/>
+<text class="t-medium" x="328.0" y="104" font-size="12" font-weight="600" letter-spacing=".06em">USE</text>
+<text class="t-medium" x="328.0" y="146" font-size="26" font-weight="700">Medium</text>
+<text class="t-medium" x="328.0" y="178" font-size="12">medium confidence</text>
+</g>
+<g><title>Longevity: impact High, confidence Low</title>
+<rect class="r-high" x="456.0" y="74" width="136.0" height="132" rx="10"/>
+<rect class="lowconf lc-high" x="460.0" y="78" width="128.0" height="124" rx="7"/>
+<text class="t-high" x="472.0" y="104" font-size="12" font-weight="600" letter-spacing=".06em">LONGEVITY</text>
+<text class="t-high" x="472.0" y="146" font-size="26" font-weight="700">High</text>
+<text class="t-high" x="472.0" y="178" font-size="12">low confidence</text>
+</g>
+<g><title>End of life: impact Low, confidence Medium</title>
+<rect class="r-low" x="600.0" y="74" width="136.0" height="132" rx="10"/>
+<text class="t-low" x="616.0" y="104" font-size="12" font-weight="600" letter-spacing=".06em">END OF LIFE</text>
+<text class="t-low" x="616.0" y="146" font-size="26" font-weight="700">Low</text>
+<text class="t-low" x="616.0" y="178" font-size="12">medium confidence</text>
+</g>
+<rect class="r-low" x="24" y="228" width="16" height="16" rx="4"/>
+<text class="ink2" x="46" y="241" font-size="13">Low</text>
+<rect class="r-medium" x="116" y="228" width="16" height="16" rx="4"/>
+<text class="ink2" x="138" y="241" font-size="13">Medium</text>
+<rect class="r-high" x="208" y="228" width="16" height="16" rx="4"/>
+<text class="ink2" x="230" y="241" font-size="13">High</text>
+<rect class="lowconf lc-key" x="308" y="228" width="16" height="16" rx="4" style="stroke-width:1.5;stroke-dasharray:3 2"/>
+<text class="ink2" x="330" y="241" font-size="13">Dashed outline = low confidence: find out before deciding</text></svg>

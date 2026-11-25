@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="381" viewBox="0 0 760 381" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Inter, Roboto, sans-serif">
+<title id="t">Feedback loops</title><desc id="d">Loop map. R1 reinforcing &quot;Per-visit generation spreads&quot;: Generated images lift a short-term metric → More pages and slots adopt them → More generations on every visit → More test wins attributed to AI; B1 balancing &quot;Visible budget with fallback&quot;: Daily generation cost on team dashboard → Budget cap reached → Serve cached catalog image instead; B1 limits R1.</desc>
+<style>
+  .surface{fill:#ffffff} .ink{fill:#191919} .ink2{fill:#666666} .rule{stroke:#e7e7e7}
+  .axis{stroke:#c2c2c2} .hit{fill:#eaf2fd} .mark{fill:#2370cd} .marktext{fill:#ffffff}
+  .r-low{fill:#84b9f3} .r-medium{fill:#257de0} .r-high{fill:#0f4a96} .r-na{fill:#f1f1f1}
+  .t-low{fill:#0b0b0b} .t-medium{fill:#ffffff} .t-high{fill:#ffffff} .t-na{fill:#666666}
+  .lp-b{stroke:#257de0} .lp-r{stroke:#f47230} .lf-b{fill:#257de0} .lf-r{fill:#f47230} .lt-b{fill:#ffffff} .lt-r{fill:#0b0b0b}
+  .box{fill:#f6f6f6} .tag{fill:#eaf2fd}
+  .lowconf{fill:none;stroke-width:2;stroke-dasharray:6 5} .lc-low{stroke:#0b0b0b} .lc-medium,.lc-high{stroke:#ffffff} .lc-key{stroke:#666666}
+  @media (prefers-color-scheme: dark){
+    .surface{fill:#191919} .ink{fill:#efefef} .ink2{fill:#9c9c9c} .rule{stroke:#303030}
+    .axis{stroke:#474747} .hit{fill:#1c2a3d} .mark{fill:#519ced} .marktext{fill:#0b0b0b}
+    .r-low{fill:#1757ac} .r-medium{fill:#338ced} .r-high{fill:#9dc8f7} .r-na{fill:#262626}
+    .t-low{fill:#ffffff} .t-medium{fill:#0b0b0b} .t-high{fill:#0b0b0b} .t-na{fill:#9c9c9c}
+    .lp-b{stroke:#338ced} .lp-r{stroke:#e76624} .lf-b{fill:#338ced} .lf-r{fill:#e76624} .lt-b{fill:#0b0b0b} .lt-r{fill:#0b0b0b}
+    .box{fill:#232323} .tag{fill:#1c2a3d}
+    .lc-low{stroke:#ffffff} .lc-medium,.lc-high{stroke:#0b0b0b} .lc-key{stroke:#9c9c9c}
+  }
+</style>
+<rect class="surface" width="760" height="381" rx="12"/>
+<text class="ink" x="24" y="34" font-size="20" font-weight="600">How the system behaves</text>
+<text class="ink2" x="24" y="56" font-size="13">Feedback loops this design creates (R, reinforcing) and the ones that hold them in check (B, balancing).</text>
+<rect class="lf-r" x="24" y="84" width="34" height="24" rx="6"/><text class="lt-r" x="41" y="101" font-size="13" font-weight="700" text-anchor="middle">R1</text>
+<text class="ink" x="68" y="101" font-size="15" font-weight="600">Per-visit generation spreads<tspan class="ink2" font-weight="400" font-size="13">  ·  Reinforcing</tspan></text>
+<rect class="box lp-r" x="24.0" y="122" width="151.5" height="71" rx="10" stroke-width="2"/>
+<text class="ink" x="99.8" y="145.5" font-size="13" text-anchor="middle">Generated images</text>
+<text class="ink" x="99.8" y="162.5" font-size="13" text-anchor="middle">lift a short-term</text>
+<text class="ink" x="99.8" y="179.5" font-size="13" text-anchor="middle">metric</text>
+<path class="lp-r" d="M178.5 157.5 H192.5" stroke-width="2" fill="none"/><path class="lf-r" d="M191.5 152.5 L197.5 157.5 L191.5 162.5 Z"/>
+<rect class="box lp-r" x="197.5" y="122" width="151.5" height="71" rx="10" stroke-width="2"/>
+<text class="ink" x="273.2" y="154.0" font-size="13" text-anchor="middle">More pages and</text>
+<text class="ink" x="273.2" y="171.0" font-size="13" text-anchor="middle">slots adopt them</text>
+<path class="lp-r" d="M352.0 157.5 H366.0" stroke-width="2" fill="none"/><path class="lf-r" d="M365.0 152.5 L371.0 157.5 L365.0 162.5 Z"/>
+<rect class="box lp-r" x="371.0" y="122" width="151.5" height="71" rx="10" stroke-width="2"/>
+<text class="ink" x="446.8" y="154.0" font-size="13" text-anchor="middle">More generations</text>
+<text class="ink" x="446.8" y="171.0" font-size="13" text-anchor="middle">on every visit</text>
+<path class="lp-r" d="M525.5 157.5 H539.5" stroke-width="2" fill="none"/><path class="lf-r" d="M538.5 152.5 L544.5 157.5 L538.5 162.5 Z"/>
+<rect class="box lp-r" x="544.5" y="122" width="151.5" height="71" rx="10" stroke-width="2"/>
+<text class="ink" x="620.2" y="154.0" font-size="13" text-anchor="middle">More test wins</text>
+<text class="ink" x="620.2" y="171.0" font-size="13" text-anchor="middle">attributed to AI</text>
+<path class="lp-r" d="M620.2 193 V207 Q620.2 215 612.2 215 H107.8 Q99.8 215 99.8 207 V202" stroke-width="2" fill="none"/><path class="lf-r" d="M94.8 203 L99.8 196 L104.8 203 Z"/>
+<text class="ink2" x="360.0" y="209" font-size="12" text-anchor="middle">and round again, faster</text>
+<rect class="lf-b" x="24" y="245" width="34" height="24" rx="6"/><text class="lt-b" x="41" y="262" font-size="13" font-weight="700" text-anchor="middle">B1</text>
+<text class="ink" x="68" y="262" font-size="15" font-weight="600">Visible budget with fallback<tspan class="ink2" font-weight="400" font-size="13">  ·  Balancing</tspan></text>
+<rect class="tag" x="568" y="245" width="128" height="24" rx="12"/><circle class="mark" cx="582" cy="257" r="9"/><text class="marktext" x="582" y="261" font-size="11" font-weight="700" text-anchor="middle">3</text><text class="ink" x="598" y="261" font-size="12">from trimtab</text>
+<rect class="box lp-b" x="24.0" y="283" width="209.3" height="54" rx="10" stroke-width="2"/>
+<text class="ink" x="128.7" y="306.5" font-size="13" text-anchor="middle">Daily generation cost on</text>
+<text class="ink" x="128.7" y="323.5" font-size="13" text-anchor="middle">team dashboard</text>
+<path class="lp-b" d="M236.3 310.0 H250.3" stroke-width="2" fill="none"/><path class="lf-b" d="M249.3 305.0 L255.3 310.0 L249.3 315.0 Z"/>
+<rect class="box lp-b" x="255.3" y="283" width="209.3" height="54" rx="10" stroke-width="2"/>
+<text class="ink" x="360.0" y="315.0" font-size="13" text-anchor="middle">Budget cap reached</text>
+<path class="lp-b" d="M467.7 310.0 H481.7" stroke-width="2" fill="none"/><path class="lf-b" d="M480.7 305.0 L486.7 310.0 L480.7 315.0 Z"/>
+<rect class="box lp-b" x="486.7" y="283" width="209.3" height="54" rx="10" stroke-width="2"/>
+<text class="ink" x="591.3" y="306.5" font-size="13" text-anchor="middle">Serve cached catalog image</text>
+<text class="ink" x="591.3" y="323.5" font-size="13" text-anchor="middle">instead</text>
+<path class="lp-b" d="M591.3 337 V351 Q591.3 359 583.3 359 H136.7 Q128.7 359 128.7 351 V346" stroke-width="2" fill="none"/><path class="lf-b" d="M123.7 347 L128.7 340 L133.7 347 Z"/>
+<text class="ink2" x="360.0" y="353" font-size="12" text-anchor="middle">and back toward the limit</text>
+<path class="lp-b" d="M700 310.0 H726 V157.5 H706" stroke-width="2" fill="none" stroke-dasharray="5 4"/><path class="lf-b" d="M708 152.5 L701 157.5 L708 162.5 Z"/>
+<text class="ink2" font-size="12" transform="translate(740 233.75) rotate(-90)" text-anchor="middle">limits R1</text></svg>
