@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: settings-page-just-build
+expected_outcome: |
+  A short brief with the verdict Build. It doesn't manufacture problems: impact ratings are mostly Low, no feedback-loop map is drawn because the redesign creates no real loops, and any recommendations are minor, optional improvements (for example keeping notification defaults conservative or the page light), not scope changes. No invented carbon figures.
