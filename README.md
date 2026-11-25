@@ -40,6 +40,7 @@ The **Design Tokens** plugin for Figma allows you to export design tokens into a
   - [File Export Settings](#file-export-settings)  
   - [Push tokens to Github / Server](#push-to-server)
 - [Contribution](#contribution)
+- [Claude Code skill: Design Impact Plan](#claude-code-skill-design-impact-plan)
 
 ## Installation
 
@@ -577,3 +578,35 @@ If you are interested in helping please comment on any issue you would like to t
 ### Thanks to all the contributors
 
 This plugin is a lot of work and is maintained in parts thanks to all the wonderful [contributors](https://github.com/lukasoppermann/design-tokens/graphs/contributors).
+
+## Claude Code skill: Design Impact Plan
+
+This repo includes a [Claude Code](https://claude.com/claude-code) skill, `design-impact-plan`, for planning the environmental and societal impact of a new design **before it's built**. It covers digital work and "phygital" work (kiosks, connected products, smart packaging, QR/AR, installations). It draws on Don Norman's *Design for a Better World* and Buckminster Fuller's *Critical Path*.
+
+Each plan gives you:
+
+- **One verdict:** Build, Build differently, Reconsider, or Don't build. Anything short of Build comes with a smaller alternative.
+- **The trimtabs:** the 1–3 small changes with the most leverage, plus the critical-path decisions to make first.
+- **Honest findings:** impact rated High/Medium/Low with a confidence level. Figures appear only when they come from a named method (e.g. Sustainable Web Design, CO2.js) with the inputs shown.
+- **Design-token changes** where a fix belongs in the design system (motion, themes, typography, effects, sizes, a low-impact mode).
+
+### Using it
+
+Open this repo in Claude Code, then either ask in plain language:
+
+> Can you do an impact plan for our new onboarding flow?
+
+or call the skill by name:
+
+```
+/design-impact-plan museum lobby kiosk with a touchscreen and a printed-receipt option
+```
+
+Plans are saved as markdown under `impact-plans/` so they can be versioned with the design and shared with collaborators.
+
+### Using it elsewhere
+
+- **Other projects (Claude Code):** copy `.claude/skills/design-impact-plan/` to `~/.claude/skills/design-impact-plan/`.
+- **claude.ai:** upload a packaged `design-impact-plan.skill` file in your Claude settings, under Skills.
+
+The skill lives in [`.claude/skills/design-impact-plan/`](.claude/skills/design-impact-plan/). Its test cases are in `evals/`.
