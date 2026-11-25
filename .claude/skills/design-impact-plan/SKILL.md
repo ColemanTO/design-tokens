@@ -56,13 +56,15 @@ From everything above, choose the **top 1–3 leverage points**: changes that ar
 
 Label each trimtab with its place on Meadows' ladder (see `references/frameworks.md`), e.g. "rules / defaults (5)" or "parameter (12)". If every trimtab is a parameter tweak, look again for a stronger lever: a default or rule, an information flow that makes the cost visible, a limit on a runaway loop, or the goal itself. Name it even if it's harder, and let the team choose. Check that each lever is pulled in the right direction.
 
+Label honestly, though: the ladder is only useful if the levels are true. Most small fixes (lazy-loading, compression, a shorter loop, a redirect) are parameters (12) or buffers (11), and that's fine. A change counts as **rules / defaults (5)** only if it changes what happens by default for everyone, and as **information flows (6)** only if it makes a cost or consequence visible to someone who can act on it. Don't stretch a label to make a plan look stronger; that's the same false precision as an invented number.
+
 ### 5. Translate to design tokens where it fits
 
 Many digital mitigations are best encoded once in the design system rather than re-decided screen by screen. When a finding maps to tokens, recommend the concrete token change. Read `references/tokens.md` for the patterns (motion, color/dark themes, typography, effects, sizes/breakpoints, a low-impact mode). If you're working in a token repository, look at the actual token files and refer to real token names.
 
 ### 6. Write the plan
 
-**Default to the one-page brief** in `references/plan-template.md`: 650–700 words, leading with the verdict and the trimtabs. A plan only changes decisions if people read it, and long plans don't get read: earlier versions of this skill produced 2,000+ word plans that buried their best ideas. Do the full analysis anyway — every lens, every stage — then keep only what changes a decision. Write the **full plan** (same file, second template) only when the user asks for it or the plan is headed for a formal review; otherwise end by offering it in one line.
+**Default to the one-page brief** in `references/plan-template.md`: 650–700 words (300–450 for a Build verdict), leading with the verdict and the trimtabs. A plan only changes decisions if people read it, and long plans don't get read: earlier versions of this skill produced 2,000+ word plans that buried their best ideas. Do the full analysis anyway — every lens, every stage — then keep only what changes a decision. Write the **full plan** (same file, second template) only when the user asks for it or the plan is headed for a formal review; otherwise end by offering it in one line.
 
 **Verdict** — pick one and justify it in a sentence or two:
 - **Build** — impact is proportionate to the value; note the minor improvements.
