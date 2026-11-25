@@ -12,7 +12,7 @@ Both are written for a collaborator who wasn't in the conversation. Drop any sec
 
 ## One-page brief (default)
 
-**Budget: about 600 words of text**, not counting figure alt text. That's what fits on one page and gets read. The analysis behind it is just as thorough as for the full plan: run every lens, then keep only what changes a decision. If you're over budget, cut detail from the findings and assumptions, never the verdict or the trimtabs.
+**Budget: 650–700 words of text**, not counting figure alt text. That's what fits on one page and gets read; don't go over 700. The analysis behind it is just as thorough as for the full plan: run every lens, then keep only what changes a decision. If you're over budget, cut detail from the findings and assumptions, never the verdict or the trimtabs.
 
 ```markdown
 # Impact brief: <design name>

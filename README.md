@@ -583,7 +583,7 @@ This plugin is a lot of work and is maintained in parts thanks to all the wonder
 
 This repo includes a [Claude Code](https://claude.com/claude-code) skill, `design-impact-plan`, for planning the environmental and societal impact of a new design **before it's built**. It covers digital work and "phygital" work (kiosks, connected products, smart packaging, QR/AR, installations). It draws on Don Norman's *Design for a Better World*, Buckminster Fuller's *Critical Path* and Donella Meadows' *Thinking in Systems*.
 
-By default each plan is a **one-page brief** (about 600 words), because a plan only changes decisions if people read it. Ask for the full plan when you need all the reasoning on record. Each plan gives you:
+By default each plan is a **one-page brief** (650–700 words), because a plan only changes decisions if people read it. Ask for the full plan when you need all the reasoning on record. Each plan gives you:
 
 - **One verdict:** Build, Build differently, Reconsider, or Don't build. Anything short of Build comes with a smaller alternative.
 - **The trimtabs:** the 1–3 small changes with the most leverage, each ranked on Meadows' leverage-point ladder, plus the critical-path decisions to make first.

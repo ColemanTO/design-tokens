@@ -62,7 +62,7 @@ Many digital mitigations are best encoded once in the design system rather than 
 
 ### 6. Write the plan
 
-**Default to the one-page brief** in `references/plan-template.md`: about 600 words, leading with the verdict and the trimtabs. A plan only changes decisions if people read it, and long plans don't get read: earlier versions of this skill produced 2,000+ word plans that buried their best ideas. Do the full analysis anyway — every lens, every stage — then keep only what changes a decision. Write the **full plan** (same file, second template) only when the user asks for it or the plan is headed for a formal review; otherwise end by offering it in one line.
+**Default to the one-page brief** in `references/plan-template.md`: 650–700 words, leading with the verdict and the trimtabs. A plan only changes decisions if people read it, and long plans don't get read: earlier versions of this skill produced 2,000+ word plans that buried their best ideas. Do the full analysis anyway — every lens, every stage — then keep only what changes a decision. Write the **full plan** (same file, second template) only when the user asks for it or the plan is headed for a formal review; otherwise end by offering it in one line.
 
 **Verdict** — pick one and justify it in a sentence or two:
 - **Build** — impact is proportionate to the value; note the minor improvements.
