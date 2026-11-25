@@ -20,6 +20,10 @@
     "vo": "Here's a real plan from testing. A homepage hero with autoplay video and parallax, at two million visits a month. The verdict: build differently. The top trimtab: make a still poster the default, and play the video only where it's cheap and welcome. Decided before the shoot, while it's still easy to change."
   },
   {
+    "id": "figures",
+    "vo": "Every saved plan comes with two figures. The leverage ladder puts each trimtab on Meadows' rungs, so you can see at a glance whether a plan reaches for rules and goals, or stops at tweaking numbers. The lifecycle strip shows where the impact sits, from creation to end of life, and flags the low-confidence ratings to check first."
+  },
+  {
     "id": "phygital",
     "vo": "It handles phygital work too. For smart skincare packaging with an NFC chip in every jar, it recommends a printed QR code instead. And it catches a risk the plain model missed: a brand-owned redirect, so half a million jars don't turn into dead links."
   },

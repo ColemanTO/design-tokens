@@ -99,6 +99,24 @@ ul.b li:before{content:"";position:absolute;left:0;top:14px;width:16px;height:16
 .caret{display:inline-block;width:20px;height:42px;background:#9FD3B5;vertical-align:-6px;margin-left:4px}
 .path{font:500 30px/1 "JetBrains Mono";color:var(--muted);margin-top:34px}
 .closing{font-size:64px;line-height:1.15;margin-top:80px;font-weight:600}
+
+.figs{display:grid;grid-template-columns:1000px 1fr;gap:44px;align-items:start}
+.ladder{padding:30px 36px 26px;position:relative}
+.rung{position:relative;height:46px;display:flex;align-items:center;border-bottom:1px solid #E6E1D5;font-size:24px;color:var(--muted);padding-left:14px;border-radius:10px}
+.rung b{display:inline-block;width:44px;font-weight:500;font-variant-numeric:tabular-nums}
+.rung.on{background:#E3EEFB;color:var(--ink);font-weight:600}
+.ladder .axis{position:absolute;left:8px;top:40px;bottom:40px;width:2px;background:#C2C2C2}
+.ladder .ends{position:absolute;left:-30px;font:600 14px/1 Inter;letter-spacing:.1em;color:var(--muted);transform:rotate(-90deg);transform-origin:center}
+.mk{position:absolute;width:38px;height:38px;border-radius:50%;background:#2370cd;color:#fff;font:700 20px/38px Inter;text-align:center}
+.mklab{position:absolute;font-size:22px;color:var(--ink);white-space:nowrap}
+.strip{display:grid;gap:12px}
+.cell{border-radius:16px;padding:20px 26px;display:flex;justify-content:space-between;align-items:center;position:relative;height:104px}
+.cell .st{font:600 18px/1 Inter;letter-spacing:.08em;text-transform:uppercase}
+.cell .tv{font:700 36px/1 Inter;text-align:right}
+.cell .cf{font:400 18px/1 Inter;margin-top:8px;text-align:right}
+.c-low{background:#84b9f3;color:#0b0b0b} .c-medium{background:#257de0;color:#fff} .c-high{background:#0f4a96;color:#fff}
+.cell .dash{position:absolute;inset:6px;border:3px dashed #fff;border-radius:11px;opacity:0}
+.strip-h{font:600 22px/1 Inter;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
 </style>
 </head>
 <body>
@@ -210,6 +228,45 @@ ul.b li:before{content:"";position:absolute;left:0;top:14px;width:16px;height:16
   <div class="callout r" data-at=".8">Decide before the shoot, while it's still cheap to change.</div>
 </section>
 
+<!-- 5b figures -->
+<section class="scene" data-id="figures" data-label="Plan figures">
+  <h2 class="serif r" data-at="0" style="margin-bottom:34px">Two figures in every plan</h2>
+  <div class="figs">
+    <div>
+    <div class="strip-h r" data-at=".08">Leverage ladder · strongest at the top</div>
+    <div class="card ladder r" data-at=".01" id="ladder">
+      <i class="axis"></i>
+        <div class="rung r" id="rung1" data-at="0.020"><b>1</b>Power to transcend paradigms</div>
+        <div class="rung r" id="rung2" data-at="0.032"><b>2</b>Mindset or paradigm</div>
+        <div class="rung r" id="rung3" data-at="0.044"><b>3</b>Goals of the system</div>
+        <div class="rung r" id="rung4" data-at="0.056"><b>4</b>Self-organization</div>
+        <div class="rung r" id="rung5" data-at="0.068"><b>5</b>Rules and defaults</div>
+        <div class="rung r" id="rung6" data-at="0.080"><b>6</b>Information flows</div>
+        <div class="rung r" id="rung7" data-at="0.092"><b>7</b>Reinforcing loops</div>
+        <div class="rung r" id="rung8" data-at="0.104"><b>8</b>Balancing loops</div>
+        <div class="rung r" id="rung9" data-at="0.116"><b>9</b>Delays</div>
+        <div class="rung r" id="rung10" data-at="0.128"><b>10</b>Material stocks and flows</div>
+        <div class="rung r" id="rung11" data-at="0.140"><b>11</b>Buffers</div>
+        <div class="rung r" id="rung12" data-at="0.152"><b>12</b>Parameters and numbers</div>
+      <div class="mk" id="mk1">1</div><div class="mk" id="mk3a">3</div><div class="mk" id="mk3b">3</div><div class="mk" id="mk2">2</div>
+      <div class="mklab" id="lab5">Poster-first default · No-autoplay rule</div>
+      <div class="mklab" id="lab8">Video stops by itself</div>
+      <div class="mklab" id="lab6">Make the cost visible (also #3)</div>
+    </div>
+    </div>
+    <div>
+      <div class="strip-h r" data-at=".58">Where the impact sits</div>
+      <div class="strip">
+        <div class="cell c-medium r" data-at="0.600"><span class="st">Creation</span><span><div class="tv">Medium</div><div class="cf">medium confidence</div></span></div>
+        <div class="cell c-high r" data-at="0.645"><span class="st">Delivery</span><span><div class="tv">High</div><div class="cf">high confidence</div></span></div>
+        <div class="cell c-medium r" data-at="0.690"><span class="st">Use</span><span><div class="tv">Medium</div><div class="cf">medium confidence</div></span></div>
+        <div class="cell c-high r" data-at="0.735" id="lowcell"><span class="st">Longevity</span><span><div class="tv">High</div><div class="cf">low confidence</div></span><i class="dash" id="dash"></i></div>
+        <div class="cell c-low r" data-at="0.780"><span class="st">End of life</span><span><div class="tv">Low</div><div class="cf">medium confidence</div></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- 6 phygital -->
 <section class="scene" data-id="phygital" data-label="Example · phygital">
   <h2 class="serif r" data-at="0" style="margin-bottom:30px">Phygital, too</h2>
@@ -306,6 +363,24 @@ window.render = function (t) {
     if (el.dataset.id === 'hero') {
       document.getElementById('tt1').classList.toggle('hl', local(.45) > 0);
           }
+
+    if (el.dataset.id === 'figures') {
+      const lad = document.getElementById('ladder');
+      const lr = lad.getBoundingClientRect();
+      const rungY = n => { const r = document.getElementById('rung' + n).getBoundingClientRect(); return r.top - lr.top + r.height / 2; };
+      const place = (id, n, x, f) => {
+        const m = document.getElementById(id), p = ease(local(f) / 0.9);
+        m.style.left = (x + (1 - p) * 420) + 'px'; m.style.top = (rungY(n) - 19) + 'px'; m.style.opacity = p;
+        return p;
+      };
+      const p1 = place('mk1', 5, 440, .24), p3a = place('mk3a', 5, 486, .4), p3b = place('mk3b', 6, 440, .4), p2 = place('mk2', 8, 440, .32);
+      const lab = (id, n, x, p) => { const l = document.getElementById(id); l.style.left = x + 'px'; l.style.top = (rungY(n) - 14) + 'px'; l.style.opacity = p; };
+      lab('lab5', 5, 538, Math.min(p1, p3a)); lab('lab8', 8, 492, p2); lab('lab6', 6, 492, p3b);
+      document.getElementById('rung5').classList.toggle('on', p1 > .5);
+      document.getElementById('rung8').classList.toggle('on', p2 > .5);
+      document.getElementById('rung6').classList.toggle('on', p3b > .5);
+      document.getElementById('dash').style.opacity = ease(local(.86) / 0.6);
+    }
     if (el.dataset.id === 'phygital') document.getElementById('strike').style.setProperty('--s', ease(local(.28) / 0.6));
     if (el.dataset.id === 'results') {
       document.getElementById('f1').style.width = (100 * ease(local(.12) / 1.4)) + '%';
