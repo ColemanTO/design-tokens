@@ -15,7 +15,7 @@ python <skill-dir>/scripts/render_visuals.py <plan-slug>-visuals.json impact-pla
 # -> impact-plans/<plan-slug>-ladder.svg, -lifecycle.svg, and -loops.svg if loops are given
 ```
 
-Write the JSON from the finished plan, so the figures match the text exactly:
+Write the JSON from the finished plan, so the figures match the text exactly. This example is from an unrelated design (a fitness app's streak reminders); find the loops in the design in front of you, don't reuse these:
 
 ```json
 {
@@ -32,10 +32,10 @@ Write the JSON from the finished plan, so the figures match the text exactly:
     "end_of_life": {"impact": "Low",    "confidence": "Medium"}
   },
   "loops": [
-    {"id": "R1", "type": "reinforcing", "title": "Heavier heroes become the norm",
-     "steps": ["Rich hero ships with no budget", "Next campaign copies it", "Homepage weight creeps up"]},
-    {"id": "B1", "type": "balancing", "title": "Weight budget in CI", "trimtab": 3, "limits": "R1",
-     "steps": ["Hero weight checked on every build", "Over-budget build fails", "Team trims or justifies the asset"]}
+    {"id": "R1", "type": "reinforcing", "title": "Streaks breed more nudges",
+     "steps": ["Streak reminders lift daily opens", "Team adds more reminder types", "More notifications and wake-ups"]},
+    {"id": "B1", "type": "balancing", "title": "Weekly notification cap", "trimtab": 2, "limits": "R1",
+     "steps": ["Sends per user tracked against a cap", "Cap reached", "Lower-value reminders dropped"]}
   ]
 }
 ```

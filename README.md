@@ -597,7 +597,7 @@ Example figures from a plan for a homepage hero with autoplay video:
 
 And a loop map from a plan for AI-generated product images:
 
-<img src="docs/images/impact-plan-example-loops.svg" alt="Loop map: R1 cost grows with traffic, and B1 visible, capped spend, from trimtab 3, which limits R1" width="560">
+<img src="docs/images/impact-plan-example-loops.svg" alt="Loop map: R1 per-visit generation spreads, as short-term metric wins drive more placements and more generations; B1 a visible daily budget with a cached-photo fallback, from trimtab 3, limits R1" width="560">
 
 ### Using it
 
